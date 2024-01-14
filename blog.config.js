@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'OLLY.SOCIAL',
+  title: 'Olly - AI Powered Second Brain 🧠',
   author: 'https://olly.social',
   email: 'yash@explainx.ai  ',
   link: 'https://olly.social',
