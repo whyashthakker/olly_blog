@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useConfig } from '@/lib/config'
 import { useLocale } from '@/lib/locale'
 import useTheme from '@/lib/theme'
+import AddOllyButton from './AddOlly'
 
 const NavBar = () => {
   const BLOG = useConfig()
@@ -28,6 +29,11 @@ const NavBar = () => {
               </li>
             )
         )}
+        <li className="block ml-4 text-black dark:text-gray-50 nav">
+          <Link href="https://chrome.google.com/webstore/detail/olly-social-media-sidekic/ofjpapfmglfjdhmadpegoeifocomaeje" target="_blank">
+            Add to Chrome
+          </Link>
+        </li>
       </ul>
     </div>
   )
