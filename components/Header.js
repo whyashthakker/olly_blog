@@ -39,7 +39,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
 
   // Favicon
 
-  const resolveFavicon = fallback => !fallback && dark ? '/favicon.png' : '/favicon.png'
+  const resolveFavicon = () => '/favicon.png';
   const [favicon, _setFavicon] = useState(resolveFavicon())
   const setFavicon = fallback => _setFavicon(resolveFavicon(fallback))
 
@@ -103,14 +103,25 @@ export default function Header ({ navBarTitle, fullWidth }) {
         </svg>
         <div className="flex items-center">
           <Link href="/" aria-label={BLOG.title}>
+          {/* {navBarTitle ? ( */}
             <Image
-              src={favicon}
+              src='/favicon.png'
               width={24}
               height={24}
               alt={BLOG.title}
               onError={() => setFavicon(true)}
             />
+          {/* ) : ( */}
+            {/* <Image
+              src='/favicon.png'
+              width={24}
+              height={24}
+              alt={BLOG.title}
+              onError={() => setFavicon(true)}
+            /> */}
+          {/* )} */}
           </Link>
+          {navBarTitle ? (
           <HeaderName
             ref={titleRef}
             siteTitle={BLOG.title}
@@ -118,6 +129,10 @@ export default function Header ({ navBarTitle, fullWidth }) {
             postTitle={navBarTitle}
             onClick={handleClickHeader}
           />
+          ) : (
+           <span className='header-name ml-2 font-medium text-gray-600 dark:text-gray-300 capture-pointer-events grid-rows-1 grid-cols-1 items-center site-title'>
+            Olly - AI Powered Second Brain 🧠</span>
+           )}
         </div>
         <NavBar />
       </div>
@@ -135,6 +150,8 @@ const HeaderName = forwardRef(function HeaderName ({ siteTitle, siteDescription,
       {postTitle && <span className="post-title row-start-1 col-start-1">{postTitle}</span>}
       <span className="row-start-1 col-start-1">
         <span className="site-title">{siteTitle}</span>
+        {/* <span className="site-title">AI LE PLS</span> */}
+
         <span className="site-description font-normal">, {siteDescription}</span>
       </span>
     </p>
