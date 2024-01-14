@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'Olly - AI Powered Second Brain 🧠',
-  author: 'AISOLO TECH PVT LTD',
+  copyright: 'AISOLO TECH PVT LTD',
   email: 'yash@explainx.ai  ',
   link: 'https://olly.social',
   description: 'Welcome to the blog of Olly.social, an AI Powered Assistant to rocketship your social media marketing. Generated AI Comments, Posts, Get Virality scores, across LinkedIn, Twitter (X), Facebook, Instagram, TikTok, YouTube, Reddit, Quora, Pinterest, Medium, Blogs, and more.',

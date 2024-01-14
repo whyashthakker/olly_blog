@@ -19,7 +19,7 @@ A static blog build on top of Notion and Nextjs, deployed on [Vercel](https://ve
   </a>
 </p>
 
-Demo: [https://nobelium.vercel.app/](https://nobelium.vercel.app/)
+Demo: [https://olly.social/](https://olly.social/)
 
 <details><summary>Screenshot</summary>
 <img src="https://github.com/craigary/nobelium/blob/main/desktop.png?raw=true">
@@ -130,7 +130,7 @@ Check out our roadmap [here](https://craigary.notion.site/Public-Roadmap-89d184e
   <td align="center"><a href="https://spencerwoo.com/" title="Spencer Woo"><img src="https://avatars.githubusercontent.com/u/32114380" width="64px;" alt="Niin"/></a><br/><a href="https://spencerwoo.com" title="Spencer Woo">Spencer Woo</a></td>
 </tr></table>
 
-## Contributors
+<!-- ## Contributors
 
 <table><tr align="left">
   <td align="center"><a href="https://github.com/craigary"><img src="https://avatars.githubusercontent.com/u/10571717" width="64px;"alt="Craig Hart"/><br/><sub><b>Craig Hart</b></sub></a><br/><a href="https://github.com/craigary/nobelium/commits?author=craigary" title="Owner" >🎫 🔧 🎨 🐛</a></td>
@@ -138,7 +138,7 @@ Check out our roadmap [here](https://craigary.notion.site/Public-Roadmap-89d184e
   <td align="center"><a href="https://github.com/reycn"><img src="https://avatars.githubusercontent.com/u/11225092" width="64px;" alt="Reynard"/><br/><sub><b>Reynard</b></sub></a><br/><a href="https://github.com/craigary/nobelium/commits?author=reycn" title="Reynard" > 🎨 🐛</a></td>
   <td align="center"><a href="https://github.com/Niinjoy"><img src="https://avatars.githubusercontent.com/u/39721307" width="64px;" alt="Niin"/><br/><sub><b>Niin</b></sub></a><br/><a href="https://github.com/craigary/nobelium/commits?author=Niinjoy" title="Niin" >🔧 🐛</a></td>
   <td align="center"><a href="https://github.com/ruter"><img src="https://avatars.githubusercontent.com/u/8568876" width="64px;" alt="Ruter"/><br/><sub><b>Ruter</b></sub></a><br/><a href="https://github.com/craigary/nobelium/commits?author=ruter" title="Ruter" >🔧 🐛</a></td>
-</tr></table>
+</tr></table> -->
 
 ## License
 

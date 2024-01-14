@@ -46,7 +46,7 @@ export default function Post (props) {
                 src={`https://gravatar.com/avatar/${emailHash}`}
                 className="rounded-full"
               />
-              <p className="ml-2 md:block">{BLOG.author}</p>
+              <p className="ml-2 md:block">{post.author}</p>
             </a>
             <span className="block">&nbsp;/&nbsp;</span>
           </div>
