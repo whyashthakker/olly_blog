@@ -136,10 +136,11 @@ export default function Header ({ navBarTitle, fullWidth }) {
             onClick={handleClickHeader}
           />
           ) : (
-            <Link href="https://olly.social/">
             <span className='header-name ml-2 font-medium text-gray-600 dark:text-gray-300 capture-pointer-events grid-rows-1 grid-cols-1 items-center site-title'>
-              Olly - AI Powered Second Brain 🧠</span>
+              <Link href="https://olly.social/">
+              Olly - AI Powered Second Brain 🧠
             </Link>
+            </span>
            )}
         </div>
         <NavBar />
