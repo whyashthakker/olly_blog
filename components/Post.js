@@ -40,7 +40,7 @@ export default function Post (props) {
           <div className="flex mb-4">
             <a href={BLOG.socialLink || '#'} className="flex">
               <Image
-                alt={BLOG.author}
+                alt={post.author}
                 width={24}
                 height={24}
                 src={`https://gravatar.com/avatar/${emailHash}`}
