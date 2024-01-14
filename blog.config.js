@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Olly - AI Powered Second Brain 🧠',
   copyright: 'AISOLO TECH PVT LTD',
   email: 'yash@explainx.ai  ',
-  link: 'https://olly.social',
+  link: 'https://blog.olly.social',
   description: 'Welcome to the blog of Olly.social, an AI Powered Assistant to rocketship your social media marketing. Generated AI Comments, Posts, Get Virality scores, across LinkedIn, Twitter (X), Facebook, Instagram, TikTok, YouTube, Reddit, Quora, Pinterest, Medium, Blogs, and more.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
