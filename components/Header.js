@@ -10,7 +10,7 @@ const NavBar = () => {
   const BLOG = useConfig()
   const locale = useLocale()
   const links = [
-    { id: 0, name: locale.NAV.INDEX, to: BLOG.path || 'https://www.blog.olly.social/', show: true },
+    { id: 0, name: locale.NAV.INDEX, to: BLOG.path || 'https://blog.olly.social/', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 2, name: locale.NAV.RSS, to: '/feed', show: true, external: true },
     { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true }
@@ -108,7 +108,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
           />
         </svg>
         <div className="flex items-center">
-          <Link href="/" aria-label={BLOG.title}>
+          <Link href="https://www.olly.social/" aria-label={BLOG.title}>
           {/* {navBarTitle ? ( */}
             <Image
               src='/favicon.png'
@@ -137,7 +137,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
           />
           ) : (
             <span className='header-name ml-2 font-medium text-gray-600 dark:text-gray-300 capture-pointer-events grid-rows-1 grid-cols-1 items-center site-title'>
-              <Link href="https://olly.social/">
+              <Link href="https://www.olly.social/">
               Olly - AI Powered Second Brain 🧠
             </Link>
             </span>
